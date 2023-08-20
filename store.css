@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 0 40px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .heroBanner {
+    padding: 0px 0px;
+    /* background-color: #d08695; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./images/hero-img.jpg');
+    height: 400px;
+    background-position: 0 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 80px;
+  }
+  
+  .heroBanner p {
+    font-size: 50px;
+    font-weight: 700;
+    width: 70%;
+  }
+  
+  .heroBanner button {
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 8px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  
+  .popularCategory {
+    margin-top: 50px;
+  }
+  
+  .popularCategory hr,
+  .trendingToys hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .categoryBox {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .categoryBox div {
+    background-color: #f5f5f5;
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .categoryBox img {
+    object-fit: cover;
+  }
+  
+  .trendingToys {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .trendingBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .trendingBox img {
+    object-fit: cover;
+  }
+  
+  .trendingBox h6 {
+    font-size: 20px;
+  }
+  
+  .trendingBox p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .trendingBox button {
+    border: 1px solid #000;
+    color: #000;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .trendingBox button:hover {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+  
+  .trendingBox .toyHeading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .trendingBox .container {
+    box-shadow: 0 0 12px 0 #0000001f;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .rightItems {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  /* Responsive styles for tablets */
+  @media (max-width: 768px) {
+    .categoryBox img {
+      width: 60px;
+      height: 50px;
+    }
+  
+    .trendingBox {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+  }
+  
+  /* Responsive styles for smartphones */
+  @media (max-width: 480px) {
+    nav ul {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .categoryBox {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .trendingBox {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .heroBanner p {
+      font-size: 40px;
+      font-weight: 700;
+      width: 100%;
+    }
+  
+    .heroBanner {
+      padding: 0 30px;
+    }
+  }
+  
