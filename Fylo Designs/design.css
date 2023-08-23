@@ -32,10 +32,12 @@ nav ul {
   font-family: 'Open Sans', sans-serif;
 }
 
-.farRight{
+.farRight {
   margin-right: 40px;
 }
-
+.hamburger{
+  display: none;
+}
 .slide{
   margin-top: 50px;
   display: flex;
@@ -617,6 +619,20 @@ width: 20px;
 
 /* Media Query for screens smaller than 420px */
 @media (max-width: 420px) {
+  nav img{
+    margin: 20px 0;
+    width: 100px;
+  
+  }
+  
+  .farRight ul li{
+    display: none;
+  }
+  .hamburger img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
   .slide1{
     display:flex;
   }
@@ -666,7 +682,7 @@ margin:auto
 
 @media (max-width: 400px) {
   .card {
-    width: 321px;
+    max-width: 321px;
     margin: 20px 0;
     padding: 15px;
     height: 100%;
