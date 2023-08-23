@@ -423,7 +423,7 @@ hr {
 }
 
 /* Responsive styles for tablets */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   h1{
     font-size: 30px;
   }
@@ -452,6 +452,9 @@ hr {
   h1{
     font-size: 30px;
   }
+lord-icon{
+    width: 20px;
+  }
 .heroBanner{
   background-image: url(https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 200px;
@@ -459,12 +462,25 @@ hr {
 p{
   padding-top: 300px;
   margin-bottom: 10px;
-  margin-right: 30px;
+  margin-right: 300px;
+  width: 200px;
+  justify-items: center;
+  align-items: center;
  
 
 }
 .fancy{
+  display: flex;
   justify-content: center;
+  height: 45px;
+  width: 150px;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  gap: 5px;
+}
+.fancy span.text{
+  padding: 0px;
 }
 .trendingCategory h2 {
   margin-bottom: 5px;
@@ -486,16 +502,24 @@ hr {
   header ul {
     display: none;
   }
-.farRight{
-  display: flex;
-  justify-content: space-around;
-}
+  .farRight{
+    display: flex;
+  }
+  .icon-container {
+    width: 30px;
+    height: 30px;
+  }
+
   .hamburger img{
     display: flex;
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     margin-top: 8px;
     margin-left: 5px;
 
+}
+.lord{
+  height: 25px;
+  width: 25px; 
 }
 }
