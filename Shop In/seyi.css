@@ -473,11 +473,11 @@ p{
   padding-top: 260px;
   margin-bottom: 10px;
 margin-left: 16px;
- 
+ font-family: 'Courier New', Courier, monospace;
   width: 320px;
 }
 .fancy{
- 
+  font-family: 'Courier New', Courier, monospace;
   height: 45px;
   width: 150px;
   align-items: center;
