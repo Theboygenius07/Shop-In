@@ -42,6 +42,7 @@ nav ul {
   list-style: none;
   font-weight: 700;
 }
+
 .heroBanner {
   padding: 0px 0px;
   display: flex;
@@ -184,9 +185,9 @@ p {
   color: #333;
 }
 .product-grid {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .product-card {
   position: relative;
@@ -453,7 +454,9 @@ hr {
 body{
   font-family: 'Courier New', Courier, monospace;
   }
- 
+ nav {
+  display: flex;
+ }
  h1{
     font-size: 30px;
   }
