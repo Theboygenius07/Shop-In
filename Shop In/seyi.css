@@ -458,6 +458,7 @@ body{
   }
 lord-icon{
     width: 20px;
+    display: none;
   }
 .heroBanner{
   background-image: url(https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
