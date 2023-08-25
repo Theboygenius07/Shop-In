@@ -449,7 +449,11 @@ hr {
 
 /* Responsive styles for smartphones */
 @media (max-width: 420px) {
-  h1{
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+ h1{
     font-size: 30px;
   }
 lord-icon{
