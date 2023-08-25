@@ -619,6 +619,7 @@ width: 20px;
 
 /* Media Query for screens smaller than 420px */
 @media (max-width: 420px) {
+  
   nav img{
     margin: 20px 0;
     width: 100px;

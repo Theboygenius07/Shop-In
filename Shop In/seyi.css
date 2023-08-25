@@ -423,7 +423,7 @@ hr {
 }
 
 /* Responsive styles for tablets */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   h1{
     font-size: 30px;
   }
@@ -449,8 +449,16 @@ hr {
 
 /* Responsive styles for smartphones */
 @media (max-width: 420px) {
-  h1{
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+ h1{
     font-size: 30px;
+  }
+lord-icon{
+    width: 20px;
+    display: none;
   }
 .heroBanner{
   background-image: url(https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -464,29 +472,21 @@ lord-icon{
 p{
   padding-top: 300px;
   margin-bottom: 10px;
-  margin-left: 13px;
-  align-items: center;
- justify-content: center;
- width:320px;
-
-
+  margin-right: 30px;
+ 
 
 }
 .fancy{
-  width: 170px;
-  display: grid;
-  padding: 13px 16.25px;
+  justify-content: center;
+  height: 45px;
+  width: 150px;
   align-items: center;
   align-content: center;
-justify-content: center;
- justify-items: center;
- margin-left: 80px;
+  padding: 10px;
+  gap: 5px;
 }
-.fancy a .text {
-  margin-right: 0px;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
+.fancy span.text{
+  padding: 0px;
 }
 .trendingCategory h2 {
   margin-bottom: 5px;
@@ -509,16 +509,24 @@ hr {
   header ul {
     display: none;
   }
-.farRight{
-  display: flex;
-  justify-content: space-around;
-}
+  .farRight{
+    display: flex;
+  }
+  .icon-container {
+    width: 30px;
+    height: 30px;
+  }
+
   .hamburger img{
     display: flex;
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     margin-top: 8px;
     margin-left: 5px;
 
+}
+.lord{
+  height: 25px;
+  width: 25px; 
 }
 }
