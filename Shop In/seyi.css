@@ -450,7 +450,7 @@ hr {
 /* Responsive styles for smartphones */
 @media (max-width: 420px) {
 body{
-    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
   }
  
  h1{
