@@ -472,18 +472,18 @@ lord-icon{
 p{
   padding-top: 260px;
   margin-bottom: 10px;
-  margin-right: 30px;
+margin-left: 16px;
  
   width: 320px;
 }
 .fancy{
  
   height: 45px;
-  width: 170px;
+  width: 150px;
   align-items: center;
   align-content: center;
   padding: 10px;
- 
+  margin-left: 85px;
 }
 
 }
