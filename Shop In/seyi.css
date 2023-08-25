@@ -455,20 +455,43 @@ hr {
 .heroBanner{
   background-image: url(https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 200px;
+  margin-right: 0px;
+  padding: 0;
 } 
+lord-icon{
+  display: none;
+}
 p{
   padding-top: 300px;
   margin-bottom: 10px;
-  margin-right: 30px;
- 
+  margin-left: 13px;
+  align-items: center;
+ justify-content: center;
+ width:320px;
+
+
 
 }
 .fancy{
+  width: 170px;
+  display: grid;
+  padding: 13px 16.25px;
+  align-items: center;
+  align-content: center;
+justify-content: center;
+ justify-items: center;
+ margin-left: 80px;
+}
+.fancy a .text {
+  margin-right: 0px;
+  margin: 0;
+  padding: 0;
   justify-content: center;
 }
 .trendingCategory h2 {
   margin-bottom: 5px;
   padding-top: 130px;
+  padding-bottom: 15px;
 }
 hr {
   width: 100px;
