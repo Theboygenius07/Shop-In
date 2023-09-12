@@ -14,14 +14,13 @@
         <nav>
           
             <h1> Shop In</h1> 
-        
-            <ul>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
-        
 <div class="farRight">
    <div class="lord">
     <div>
@@ -45,7 +44,7 @@
         </nav>
     </header>
 <div class="heroBanner">
-    <div>
+    <div class="tcta">
         <p>Grab up to 50% off on Selected Items.</p>
         <div>
         <a class="fancy" href="#">
@@ -55,6 +54,7 @@
             <span class="bottom-key-2"></span>
           </a>
        </div>
+    </div>
       </div>
 </div>
 <section class="trendingCategory">
@@ -141,6 +141,15 @@
       </form>
     </div>
   </section>
-  
+  <script>
+   
+
+    function toggleMenu(){
+      var menuToggle = document.querySelector('.toggle')
+      var navigation = document.querySelector('.navigation')
+      menuToggle.classList.toggle('active')
+      navigation.classList.toggle('active')
+    }
+  </script>
 </body>
 </html>
