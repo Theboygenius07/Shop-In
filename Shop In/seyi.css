@@ -8,15 +8,6 @@
 body {
   padding: 0 40px;
 }
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
-  align-items: center;
-  cursor: pointer;
-}
-
 h1 {
   cursor: pointer;
   font-family: 'Lumanosimo', cursive;
@@ -29,6 +20,16 @@ h1 {
   text-align: left;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+
 nav a {
   text-decoration: none;
   color: #000;
@@ -432,10 +433,7 @@ hr {
   
 }
 
-  .item-card {
-    flex: 1;
-  }
-
+ 
   
 
   .hamburger {
@@ -485,8 +483,6 @@ margin-left: 16px;
   padding: 10px;
   margin-left: 85px;
 }
-
-}
 .trendingCategory h2 {
   margin-bottom: 5px;
   padding-top: 130px;
@@ -527,4 +523,6 @@ hr {
 .lord{
   height: 25px;
   width: 25px; 
+}
+
 }
