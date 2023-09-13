@@ -438,6 +438,15 @@ hr {
   animation: coolScrollIn 1s ease forwards;
 
 }
+.trending-section{
+  animation: coolScrollIn 1s ease forwards;
+
+}
+.trending-section{
+  animation: coolScrollIn 1s ease forwards;
+
+}
+
 /* Responsive styles for tablets */
 @media (max-width: 600px) {
   h1{
